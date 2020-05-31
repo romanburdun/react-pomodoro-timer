@@ -1,0 +1,18 @@
+.button {
+  border: none;
+  border-radius: 2px;
+  padding: 0.8rem 1.6rem;
+  background: #5bddf8;
+  color: white;
+  margin-top: 2rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background: darken(#5bddf8, 10%);
+  }
+}

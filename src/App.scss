@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #e8e8e8;
+
+  .timer-wrapper {
+    display: flex;
+    flex-flow: column;
+    padding: 2rem;
+    width: 200px;
+
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+
+
+    .timer {
+      width: 200px;
+      height: 200px;
+    }
+
+  }
+}
